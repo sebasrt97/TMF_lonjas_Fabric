@@ -4,3 +4,6 @@ Data/Tables/
 
 .DS_Store
 *.tmp
+
+## Menos muestra de table
+!Data/Tables/Muestras/
