@@ -6,4 +6,4 @@ Data/Tables/
 *.tmp
 
 ## Menos muestra de table
-!Data/Tables/Muestras/
+!/Data/Tables/Muestras
