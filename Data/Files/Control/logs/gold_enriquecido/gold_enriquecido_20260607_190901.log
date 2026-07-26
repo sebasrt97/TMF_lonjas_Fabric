@@ -1,0 +1,5 @@
+[2026-06-07T19:09:01] ======================================================================
+[2026-06-07T19:09:01] INICIO de la fase: gold_enriquecido
+[2026-06-07T19:09:01] Archivo de log:    Files/Control/logs/gold_enriquecido/gold_enriquecido_20260607_190901.log
+[2026-06-07T19:09:01] ======================================================================
+[2026-06-07T19:09:14] Se creo parquet propio para usarlo para Gold_Schema

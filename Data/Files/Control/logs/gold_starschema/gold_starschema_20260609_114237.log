@@ -1,0 +1,25 @@
+[2026-06-09T11:42:37] ======================================================================
+[2026-06-09T11:42:37] INICIO de la fase: gold_starschema
+[2026-06-09T11:42:38] Archivo de log:    Files/Control/logs/gold_starschema/gold_starschema_20260609_114237.log
+[2026-06-09T11:42:38] ======================================================================
+[2026-06-09T11:42:53] Carga: leyendo fuentes silver y catalogo de coordenadas de zonas
+[2026-06-09T11:43:20] dim_tiempo: 3647 fechas (rango completo de ambas fuentes, sin huecos forzados)
+[2026-06-09T11:43:26] dim_especie: 341 especies (fao) presentes en fact_subastas, clave fao verificada unica incl. grupobiologico (consistencia garantizada por la regla de cuarentena de silver v5), sin catalogo externo ni derivados
+[2026-06-09T11:43:44] dim_lonja: 66 lonjas unicas (lonxa+provincia; zona vive en dim_zona)
+[2026-06-09T11:44:13] fact_subastas: 2131116 filas (grano = data+fao+lonxa, identico a silver, sin exclusiones)
+[2026-06-09T11:44:48] fact_oceanografia: 2131116 filas (grano = zona+data, identico a silver, sin lag ni exclusiones)
+[2026-06-09T11:59:49] Carga: leyendo fuentes silver y catalogo de coordenadas de zonas
+[2026-06-09T12:02:21] Carga: leyendo fuentes silver y catalogo de coordenadas de zonas
+[2026-06-09T12:02:40] Lonja: 2131116 filas | Mar: 2131116 filas
+[2026-06-09T12:03:29] dim_tiempo: 3647 fechas (rango completo de ambas fuentes, sin huecos forzados)
+[2026-06-09T12:05:32] dim_especie: 341 especies (fao) presentes en fact_subastas, clave fao verificada unica incl. grupobiologico (consistencia garantizada por la regla de cuarentena de silver v5), sin catalogo externo ni derivados
+[2026-06-09T12:05:53] dim_lonja: 66 lonjas unicas (lonxa+provincia; zona vive en dim_zona)
+[2026-06-09T12:09:19] Creando dim_zona con coordenadas geograficas
+[2026-06-09T12:09:46] dim_zona: 9 zonas, 0 sin coordenadas
+[2026-06-09T12:10:14] dim_lonja: 66 lonjas unicas (lonxa+provincia; zona vive en dim_zona)
+[2026-06-09T12:11:11] dim_especie: 341 especies (fao) presentes en fact_subastas, clave fao verificada unica incl. grupobiologico (consistencia garantizada por la regla de cuarentena de silver v5), sin catalogo externo ni derivados
+[2026-06-09T12:11:29] dim_tiempo: 3647 fechas (rango completo de ambas fuentes, sin huecos forzados)
+[2026-06-09T12:12:40] fact_subastas: 2131116 filas (grano = data+fao+lonxa, identico a silver, sin exclusiones)
+[2026-06-09T12:13:41] fact_oceanografia: 2131116 filas (grano = zona+data, identico a silver, sin lag ni exclusiones)
+[2026-06-09T12:14:43] FIN: Gold_StarSchema completado
+[2026-06-09T12:16:16] FIN: Gold_StarSchema completado

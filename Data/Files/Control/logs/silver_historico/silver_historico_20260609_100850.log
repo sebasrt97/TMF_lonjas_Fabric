@@ -1,0 +1,60 @@
+[2026-06-09T10:08:50] ======================================================================
+[2026-06-09T10:08:50] INICIO de la fase: silver_historico
+[2026-06-09T10:08:50] Archivo de log:    Files/Control/logs/silver_historico/silver_historico_20260609_100850.log
+[2026-06-09T10:08:50] ======================================================================
+[2026-06-09T10:09:56] Extracción completada: 2131500 filas leídas
+[2026-06-09T10:09:56] Transformación: casting de tipos y conversión de comas decimales
+[2026-06-09T10:14:19] Extracción completada: 2131500 filas leídas
+[2026-06-09T10:14:19] Transformación: casting de tipos y conversión de comas decimales
+[2026-06-09T10:14:20] Trim aplicado a todas las columnas de texto
+[2026-06-09T10:15:00] Extracción completada: 2131500 filas leídas
+[2026-06-09T10:15:00] Transformación: casting de tipos y conversión de comas decimales
+[2026-06-09T10:15:01] Trim aplicado a todas las columnas de texto
+[2026-06-09T10:16:39] Extracción completada: 2131500 filas leídas
+[2026-06-09T10:16:39] Transformación: casting de tipos y conversión de comas decimales
+[2026-06-09T10:16:40] Trim aplicado a todas las columnas de texto
+[2026-06-09T10:16:47] Corrección de nombres diferentes para un mismo FAO
+[2026-06-09T10:18:14] Columna _grupobiologico_inconsistente añadida (marca el fao COMPLETO si presenta >1 valor de grupobiologico, sin presuponer cuál es correcto)
+[2026-06-09T10:24:48] Extracción completada: 2131500 filas leídas
+[2026-06-09T10:24:48] Transformación: casting de tipos y conversión de comas decimales
+[2026-06-09T10:24:48] Trim aplicado a todas las columnas de texto
+[2026-06-09T10:24:53] Corrección de nombres diferentes para un mismo FAO
+[2026-06-09T10:24:57] Columna _grupobiologico_inconsistente añadida (marca el fao COMPLETO si presenta >1 valor de grupobiologico, sin presuponer cuál es correcto)
+[2026-06-09T10:27:18] Columna fecha_ingesta añadida
+[2026-06-09T10:27:40] Schema printado
+[2026-06-09T10:28:58] Extracción completada: 2131500 filas leídas
+[2026-06-09T10:28:58] Transformación: casting de tipos y conversión de comas decimales
+[2026-06-09T10:28:58] Trim aplicado a todas las columnas de texto
+[2026-06-09T10:29:06] Corrección de nombres diferentes para un mismo FAO
+[2026-06-09T10:29:08] Columna _grupobiologico_inconsistente añadida (marca el fao COMPLETO si presenta >1 valor de grupobiologico, sin presuponer cuál es correcto)
+[2026-06-09T10:29:50] Columna fecha_ingesta añadida
+[2026-06-09T10:29:50] Schema printado
+[2026-06-09T10:30:15] Extracción completada: 2131500 filas leídas
+[2026-06-09T10:30:16] Transformación: casting de tipos y conversión de comas decimales
+[2026-06-09T10:30:16] Trim aplicado a todas las columnas de texto
+[2026-06-09T10:30:19] Corrección de nombres diferentes para un mismo FAO
+[2026-06-09T10:30:21] Columna _grupobiologico_inconsistente añadida (marca el fao COMPLETO si presenta >1 valor de grupobiologico, sin presuponer cuál es correcto)
+[2026-06-09T10:30:57] Columna fecha_ingesta añadida
+[2026-06-09T10:30:57] Schema printado
+[2026-06-09T10:32:07] Conteo de nulos por columna: {'data': 0, 'grupobiologico': 0, 'fao': 0, 'especie': 0, 'provincia': 0, 'zona': 0, 'lonxa': 0, 'cantidad': 0, 'importe': 0, 'precio': 0, 'anio_archivo': 0, '_grupobiologico_inconsistente': 0, 'fecha_ingesta': 0}
+[2026-06-09T10:38:02] Cobertura de reglas de calidad (conteo independiente; pueden solaparse):
+[2026-06-09T10:38:13]   - [REJECT] nulo_data: 0 registros
+[2026-06-09T10:38:19]   - [REJECT] nulo_grupobiologico: 0 registros
+[2026-06-09T10:38:27]   - [REJECT] fao_nulo_o_vacio: 0 registros
+[2026-06-09T10:38:42]   - [REJECT] nulo_especie: 0 registros
+[2026-06-09T10:38:48]   - [REJECT] nulo_provincia: 0 registros
+[2026-06-09T10:38:57]   - [REJECT] nulo_zona: 0 registros
+[2026-06-09T10:39:10]   - [REJECT] nulo_lonxa: 0 registros
+[2026-06-09T10:39:22]   - [REJECT] nulo_cantidad: 0 registros
+[2026-06-09T10:39:39]   - [REJECT] nulo_importe: 0 registros
+[2026-06-09T10:39:51]   - [REJECT] nulo_precio: 0 registros
+[2026-06-09T10:40:04]   - [REJECT] cantidad_invalida: 0 registros
+[2026-06-09T10:40:19]   - [REJECT] precio_invalido: 383 registros
+[2026-06-09T10:40:33]   - [REJECT] importe_cero: 384 registros
+[2026-06-09T10:40:44]   - [REJECT] fao_longitud_invalida: 0 registros
+[2026-06-09T10:40:49]   - [REJECT] provincia_invalida: 0 registros
+[2026-06-09T10:41:00]   - [REJECT] zona_invalida: 0 registros
+[2026-06-09T10:41:13]   - [QUARANTINE] fuera_de_rango_temporal: 0 registros
+[2026-06-09T10:43:00] Carga: escribiendo tabla Delta 'ventas_silver' (mode=overwrite, partitionBy=anio_archivo, V-Order=on)
+[2026-06-09T10:46:37] Carga: escribiendo tabla Delta 'ventas_silver' (mode=overwrite, partitionBy=anio_archivo, V-Order=on)
+[2026-06-09T10:48:24] FIN: tabla 'ventas_silver' guardada correctamente

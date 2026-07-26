@@ -1,0 +1,18 @@
+[2026-06-08T18:43:12] ======================================================================
+[2026-06-08T18:43:12] INICIO de la fase: ingesta_historico
+[2026-06-08T18:43:13] Archivo de log:    Files/Control/logs/ingesta_historico/ingesta_historico_20260608_184312.log
+[2026-06-08T18:43:13] ======================================================================
+[2026-06-08T18:43:14] Escaneo iniciado: años 2015 a 2025
+[2026-06-08T18:43:14] OK  2015: archivo ya presente, se omite
+[2026-06-08T18:43:14] OK  2016: archivo ya presente, se omite
+[2026-06-08T18:43:14] OK  2017: archivo ya presente, se omite
+[2026-06-08T18:43:14] OK  2018: archivo ya presente, se omite
+[2026-06-08T18:43:14] OK  2019: archivo ya presente, se omite
+[2026-06-08T18:43:15] OK  2020: archivo ya presente, se omite
+[2026-06-08T18:43:15] OK  2021: archivo ya presente, se omite
+[2026-06-08T18:43:15] OK  2022: archivo ya presente, se omite
+[2026-06-08T18:43:15] OK  2023: archivo ya presente, se omite
+[2026-06-08T18:43:15] OK  2024: archivo ya presente, se omite
+[2026-06-08T18:43:15] OK  2025: archivo ya presente, se omite
+[2026-06-08T18:43:16] Lakehouse sincronizado al 100% (sin tareas pendientes)
+[2026-06-08T18:43:27] Verificación: lista_descargas.json contiene 0 entradas

@@ -1,0 +1,6 @@
+[2026-06-09T11:31:45] ======================================================================
+[2026-06-09T11:31:45] INICIO de la fase: gold_starschema
+[2026-06-09T11:31:46] Archivo de log:    Files/Control/logs/gold_starschema/gold_starschema_20260609_113145.log
+[2026-06-09T11:31:46] ======================================================================
+[2026-06-09T11:33:29] dim_tiempo: 3647 fechas (rango completo de ambas fuentes, sin huecos forzados)
+[2026-06-09T11:36:06] dim_especie: 341 especies (fao) presentes en fact_subastas, clave fao verificada unica incl. grupobiologico (consistencia garantizada por la regla de cuarentena de silver v5), sin catalogo externo ni derivados

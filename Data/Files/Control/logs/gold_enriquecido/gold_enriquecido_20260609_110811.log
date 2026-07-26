@@ -1,0 +1,7 @@
+[2026-06-09T11:08:11] ======================================================================
+[2026-06-09T11:08:11] INICIO de la fase: gold_enriquecido
+[2026-06-09T11:08:11] Archivo de log:    Files/Control/logs/gold_enriquecido/gold_enriquecido_20260609_110811.log
+[2026-06-09T11:08:11] ======================================================================
+[2026-06-09T11:09:33] Se creo parquet propio para usarlo para Gold_Schema
+[2026-06-09T11:09:58] Filas tras agregacion semanal: 660071
+[2026-06-09T11:10:17] Filas restantes: 485474
