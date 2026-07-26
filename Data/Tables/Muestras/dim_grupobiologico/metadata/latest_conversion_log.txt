@@ -1,0 +1,5 @@
+Conversion completed successfully at 2026-07-26 19:39:05 UTC time. Latest Metadata file: 413fb96b-c920-4fbe-88c7-61c2e2b1b5d0/Tables/dbo/dim_grupobiologico/_delta_log/00000000000000000000.json
+=== OneLake Table Format Conversion Details ===
+Status:             Succeeded
+Timestamp (UTC):    2026-07-26 19:39:05
+Latest Metadata:    413fb96b-c920-4fbe-88c7-61c2e2b1b5d0/Tables/dbo/dim_grupobiologico/_delta_log/00000000000000000000.json

@@ -1,7 +1,4 @@
-Data/Tables/
-.sparkStaging/
-.ipynb_checkpoints/
-
+Data/Tables/*
 .DS_Store
 *.tmp
 
